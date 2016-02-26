@@ -1,0 +1,33 @@
+make_user(
+    'Tianshu Yuan',      # name
+    [                   # reviews
+        # Northside restaurants
+        make_review('Jasmine Thai', 3.0),
+        make_review('Gomnaru Restaurant', 4.0),
+        make_review('Top Dog 2', 4.0),
+        make_review('T C Garden Restaurant', 1.0),
+        make_review('The Pho Bar', 1.0),
+        make_review('Aki Japanese Restaurant', 4.0),
+        make_review('Zach\'s Snacks', 2.5),
+        make_review('Nefeli Caffe', 2.5),
+        # Westside restaurants
+        make_review('La Cascada Taqueria', 3.4),
+        make_review('Alborz', 2.5),
+        make_review('Cinnaholic', 1.5),
+        make_review('Saturn Cafe', 3.5),
+        make_review('Punjabi By Nature', 1.0),
+        make_review('Suya African Caribbean Grill', 4.0),
+        make_review('Cafe Rio', 3.5),
+        # Southside restaurants
+        make_review('Cafe 3', 2.0),
+        make_review('Pancho\'s', 4.0),
+        make_review('Peking Express', 4.5),
+        make_review('Sun Hong Kong Restaurant', 4.5),
+        make_review('Henry\'s', 5.0),
+        make_review('Durant Square - Asian Ghetto', 4.0),
+        make_review('Cheese \'N\' Stuff', 4.0),
+        make_review('Babette', 2.0),
+        make_review('Bear\'s Ramen House', 2.5),
+        make_review('Planet Kebob & Cafe', 1.5),
+    ]
+)
